@@ -245,8 +245,8 @@ Hormati kontributor lain.
 
 ---
 
-## ⭐ Final Note
+## Final Note
 
 Setiap kontribusi, sekecil apapun, sangat berarti untuk pengembangan ekosistem pembelajaran Big Data.
 
-Terima kasih telah berkontribusi! 🚀
+Terima kasih telah berkontribusi!
