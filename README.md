@@ -66,11 +66,48 @@ bigdata-project/
 │   ├── simple_job.py
 │   └── test_mongo.py
 │
+├── docs/
+│   └── screenshots/
+│       ├── 1-setup-environment.png
+│       ├── 2-environment-variables.png
+│       ├── 3-spark-job.png
+│       ├── 4-spark-output.png
+│       └── 5-mongodb-connection.png
 ├── requirements.txt
 ├── .env              # (tidak di-commit)
 ├── .gitignore
 └── README.md
 ```
+
+---
+
+## Bukti Screenshots
+
+Berikut dokumentasi proses praktikum Big Data Setup Environment & Spark Workflow:
+
+<table>
+<tr>
+<td align="center"><b>Setup Python</b></td>
+<td align="center"><b>Environment Variables</b></td>
+<td align="center"><b>Spark Job Running</b></td>
+</tr>
+<tr>
+<td><img src="screenshots/1_spark_berhasil.png" width="250"/></td>
+<td><img src="screenshots/2_mongodb_aktif.png" width="250"/></td>
+<td><img src="screenshots/3-spark-running.png" width="250"/></td>
+</tr>
+
+<tr>
+<td align="center"><b>Spark Output</b></td>
+<td align="center"><b>MongoDB Connection</b></td>
+<td></td>
+</tr>
+<tr>
+<td><img src="screenshots/4_file_simple_jobs.png" width="250"/></td>
+<td><img src="screenshots/5_hasil_eksekusi_spark.png" width="250"/></td>
+<td></td>
+</tr>
+</table>
 
 ---
 
