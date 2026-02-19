@@ -13,6 +13,12 @@
 Praktikum Big Data Technology  
 Topik: Setup Environment, PySpark, MongoDB Atlas, dan Git Workflow
 
+## Deskripsi
+
+Praktikum ini merupakan bagian dari mata kuliah **Teknologi Big Data** yang berfokus pada proses setup environment pengembangan serta workflow Git dalam proyek Big Data. Pada praktikum ini, mahasiswa membangun environment dari nol hingga dapat menjalankan Spark job sederhana dan mengintegrasikannya dengan cloud database MongoDB Atlas. Pendekatan yang digunakan mencerminkan workflow industri modern: Local Development → Distributed Processing → Cloud Integration → Version Control
+
+---
+
 ## Tim Developer
 
 | Peran | Nama | NIM | Profil GitHub |
@@ -22,27 +28,21 @@ Topik: Setup Environment, PySpark, MongoDB Atlas, dan Git Workflow
 
 ---
 
+## Tujuan Praktikum
 
-## 📌 Deskripsi Project
+Setelah menyelesaikan praktikum ini, mahasiswa mampu:
 
-Project ini dibuat sebagai latihan dasar workflow Data Engineering menggunakan:
-
-- Python 3.10
-- PySpark (Apache Spark)
-- MongoDB Atlas (Cloud NoSQL Database)
-- VS Code + PowerShell
-- Git & GitHub
-
-Project ini mencakup:
-- Setup environment
-- Menjalankan Spark job sederhana
-- Koneksi ke MongoDB Atlas
-- Praktik struktur folder profesional
-- Pemisahan credential menggunakan `.env`
+1. Menggunakan VS Code sebagai environment kerja
+2. Menjalankan perintah CLI melalui PowerShell / Terminal
+3. Menginstal dan menjalankan PySpark di Windows
+4. Membuat dan menghubungkan MongoDB Atlas (cloud database)
+5. Membuat struktur project Python yang rapi dan profesional
+6. Menggunakan Git dan GitHub dalam workflow development
+7. Menjalankan Spark job sederhana untuk agregasi data
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python 3.10.x
 - PySpark
@@ -52,7 +52,7 @@ Project ini mencakup:
 
 ---
 
-## 📁 Struktur Folder
+## Struktur Folder Project
 
 ```
 bigdata-project/
@@ -74,11 +74,11 @@ bigdata-project/
 
 ---
 
-## ⚙️ Setup Environment
+## Setup Environment
 
-### 1️⃣ Install Python
+### Install Python
 
-Gunakan Python **3.10.x**  
+Gunakan Python **3.10.11**  
 (PySpark lebih stabil di 3.10 dibanding 3.14)
 
 Cek versi:
@@ -88,7 +88,7 @@ python --version
 
 ---
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 
 Di root project:
 
@@ -112,7 +112,7 @@ python-dotenv
 
 ---
 
-## 🚀 Menjalankan Spark Job
+## Menjalankan Spark Job
 
 File: `scripts/simple_job.py`
 
@@ -137,7 +137,7 @@ Jika muncul warning `winutils.exe`, itu normal di Windows dan bisa diabaikan.
 
 ---
 
-## 🧠 Troubleshooting PySpark di Windows
+## Troubleshooting PySpark di Windows
 
 Jika muncul error:
 
@@ -164,7 +164,7 @@ spark-submit --conf spark.pyspark.python=PATH_PYTHON `
 
 ---
 
-## ☁️ Setup MongoDB Atlas
+## Setup MongoDB Atlas
 
 Langkah umum:
 
@@ -176,13 +176,13 @@ Langkah umum:
 
 ---
 
-## 🔐 Keamanan: Gunakan .env untuk Mongo URI
+## Keamanan: Gunakan .env untuk Mongo URI
 
 ⚠ Jangan simpan URI MongoDB langsung di file Python jika project akan di-push ke GitHub.
 
 ---
 
-### 1️⃣ Buat file `.env` (di root project)
+### Buat file `.env` (di root project)
 
 ```
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority
@@ -190,7 +190,7 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=tru
 
 ---
 
-### 2️⃣ Tambahkan `.env` ke `.gitignore`
+### Tambahkan `.env` ke `.gitignore`
 
 Buat file `.gitignore`:
 
@@ -206,7 +206,7 @@ __pycache__/
 
 ---
 
-### 3️⃣ Update `test_mongo.py`
+### Update `test_mongo.py`
 
 Gunakan dotenv agar credential aman:
 
@@ -238,7 +238,7 @@ python scripts/test_mongo.py
 
 ---
 
-## 🧾 Git Workflow
+## Git Workflow
 
 Inisialisasi repository:
 
@@ -263,9 +263,3 @@ Jika URI MongoDB pernah di-commit:
 4. Regenerate password MongoDB Atlas
 
 ---
-
-## 👨‍💻 Author
-
-Nama: mkasp  
-Course: Big Data Technology  
-Semester 6 — Teknologi Informasi
