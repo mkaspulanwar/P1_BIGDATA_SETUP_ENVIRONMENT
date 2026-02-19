@@ -1,9 +1,27 @@
-# Big Data Project — Week 1
+# PRAKTIKUM WEEK 1: SETUP ENVIRONMENT & GIT WORKFLOW
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.10.11-blue?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/PySpark-Enabled-orange?style=for-the-badge&logo=apachespark&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-17-red?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-Workflow-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+
+</p>
 
 Praktikum Big Data Technology  
 Topik: Setup Environment, PySpark, MongoDB Atlas, dan Git Workflow
 
+## Tim Developer
+
+| Peran | Nama | NIM | Profil GitHub |
+| :--- | :--- | :--- | :--- |
+| **Pengembang Proyek** | M. Kaspul Anwar | 230104040212 | [![](https://img.shields.io/badge/GitHub-M.KaspulAnwar-181717?style=flat&logo=github)](https://github.com/mkaspulanwar) |
+| **Dosen Pengampu** | Muhayat, M. IT | - | [![](https://img.shields.io/badge/GitHub-Muhayat,M.IT-181717?style=flat&logo=github)](https://github.com/muhayat-lab) |
+
 ---
+
 
 ## 📌 Deskripsi Project
 
