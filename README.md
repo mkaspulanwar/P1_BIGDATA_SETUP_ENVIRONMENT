@@ -87,19 +87,19 @@ Berikut dokumentasi proses praktikum Big Data Setup Environment & Spark Workflow
 
 <table>
 <tr>
-<td align="center"><b>Setup Python</b></td>
-<td align="center"><b>Environment Variables</b></td>
-<td align="center"><b>Spark Job Running</b></td>
+<td align="center"><b>Spark berhasil berjalan</b></td>
+<td align="center"><b>MongoDB Atlas (Status: ACTIVE)</b></td>
+<td align="center"><b>GitHub Repository (Public)</b></td>
 </tr>
 <tr>
 <td><img src="screenshots/1_spark_berhasil.png" width="250"/></td>
 <td><img src="screenshots/2_mongodb_aktif.png" width="250"/></td>
-<td><img src="screenshots/3-spark-running.png" width="250"/></td>
+<td><img src="screenshots/3_link_github_repo.png" width="250"/></td>
 </tr>
 
 <tr>
-<td align="center"><b>Spark Output</b></td>
-<td align="center"><b>MongoDB Connection</b></td>
+<td align="center"><b>File simple_job.py</b></td>
+<td align="center"><b>Hasil eksekusi Spark</b></td>
 <td></td>
 </tr>
 <tr>
